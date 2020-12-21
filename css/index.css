@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: url(../unnamed.jpg) no-repeat; */
+    /* background-size: 100%; */
+    background-color: #032444;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    font-size: 20px;
+    width: 70px;
+    height: 45px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 722px;
+    /* background-color: rgba(79, 174, 247); */
+    /* overflow: scroll; */
+}
+
+.title {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100px;
+    height: 30px;
+    color: beige;
+}
+
+h4 {
+    color: rgb(238, 132, 11);
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.container .top {
+    float: left;
+    margin-top: 30px;
+    width: 50%;
+    height: 361px;
+    text-align: center;
+}
+
+.container .lower {
+    width: 50%;
+    height: 361px;
+    text-align: center;
+}
+
+.top-show {
+    padding-top: 60px;
+    text-align: center;
+    position: relative;
+}
+
+.top-show ul li {
+    width: 105px;
+    height: 150px;
+    display: inline-block;
+    margin: 0 40px;
+}
+
+.top-hidden {
+    margin-top: 30px;
+    display: none;
+}
+
+.top-hidden button {
+    margin: 0 20px;
+    background-color: yellow;
+    opacity: 1;
+    border-radius: 10px;
+    color: black;
+}
+
+.top-hidden button:hover {
+    cursor: pointer;
+    transform: scale(1.4);
+    transition: all .4s;
+}
+
+.container .right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 100%;
+}
+
+.right .cards {
+    position: absolute;
+    top: 240px;
+    left: 150px;
+}
+
+.box {
+    display: none;
+    text-align: center;
+    float: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50px, -30px);
+    width: 120px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.box button {
+    width: 80%;
+    background-color: yellow;
+    opacity: 1;
+    border-radius: 15px;
+    color: black;
+}
+
+.nav ul li:last-child {
+    position: absolute;
+    bottom: 180px;
+    left: 130px;
+    margin: 0 20px;
+}
+
+.nav ul li:last-child button {
+    margin: 20px 20px;
+    background-color: yellow;
+    opacity: 1;
+    border-radius: 10px;
+    color: black;
+}
+
+.mask {
+    position: absolute;
+    top: 0;
+    background-color: rgb(100, 105, 101, .3);
+    width: 100%;
+    height: 100%;
+}
